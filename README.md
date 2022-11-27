@@ -214,7 +214,10 @@ Using subqueries instead of CTE is such a lower cost. I imagine it’s because e
 
 ![image](https://user-images.githubusercontent.com/115924234/204134433-b458ccd5-ad33-432d-9063-d7c6db848d91.png)  
 
-The problems I've run into include determining what is needed to create a CTE. I know that unlike subrequests, CTEs are defined at the beginning of the request. Also, writing an entirely new SELECT statement that queries a temporary table created with a CTE seems odd at first. However, if you spend more time reading the syntax, everything will be much easier to understand.
+The problems I've run into include determining what is needed to create a CTE. I know that unlike subrequests, CTEs are defined at the beginning of the request. Also, writing an entirely new SELECT statement that queries a temporary table created with a CTE seems odd at first. However, if you spend more time reading the syntax, everything will be much easier to understand.  
+
+<img width="983" alt="Screenshot 2022-11-27 at 13 28 19" src="https://user-images.githubusercontent.com/115924234/204135195-8ffcd31f-de7e-43bc-a2d9-b05b74790915.png">
+
 
 
   
